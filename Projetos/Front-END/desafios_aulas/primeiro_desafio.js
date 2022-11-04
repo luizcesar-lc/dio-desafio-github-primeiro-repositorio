@@ -1,5 +1,6 @@
 function valorViagem(preco, valorMedio, distancia){
-    return valor = (distancia / valorMedio) * preco
+    let valor = (distancia / valorMedio) * preco;
+    return valor.toFixed(2);
 }
 
 console.log(valorViagem(5.79, 10, 100))
